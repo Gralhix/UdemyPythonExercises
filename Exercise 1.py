@@ -6,6 +6,6 @@ a = int(input("Please enter the first number:\n > "))
 b = int(input("Please enter the second number:\n > "))
 
 if int(a * b) > 1000:
-    print(a + b)
+    print("The sum between the first and the second number is:", (a + b))
 else:
-    print(int(a * b))
+    print("The product between the first and the second number is:", (a * b))
